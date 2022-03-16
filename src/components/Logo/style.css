@@ -1,0 +1,18 @@
+.logo{
+    text-align: center;
+}
+.logo a{
+    display: grid;
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    text-decoration: none;
+    color: #333;
+}
+
+.img-db-logo{
+    width: 10%;
+    margin-left: 10px;
+
+}
+
+    
