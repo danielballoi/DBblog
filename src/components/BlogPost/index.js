@@ -3,6 +3,7 @@ import './style.css';
 import Card from '../UI/Card';
 import blogPost from '../../data/blog.js';
 
+
 /**
 * @author
 * @function BlogPost
@@ -31,6 +32,13 @@ const BlogPost = (props) => {
 
     if(post.blogImage == "") return null;
 
+   
+
+
+
+           
+       
+
   return(
         <div className="blogPostContainer">
             <Card>
@@ -40,9 +48,9 @@ const BlogPost = (props) => {
   <span className="postedBy">pubblicata il {post.postedOn} da {post.author}</span>
                 </div>
 
-                <div className="postImageContainer">
-                    <img src={require('../../blogPostImages/' + post.blogImage)} alt="Post Image" />
-                    
+                <div className="postImageContainer"> 
+                
+                      <img src={require('../../blogPostImages/' + post.blogImage)} alt="Post Image" />           
                 </div>
 
                 <div className="postContent">

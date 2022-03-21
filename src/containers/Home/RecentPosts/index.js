@@ -12,15 +12,15 @@ const RecentPosts = (props) => {
     <div style={props.style}>
         <Card style={{marginBottom: '20px'}}>
             <div className="postImageWrapper">
-                <img src={'https://www.pexels.com/photo/seated-man-reading-newspaper-with-flames-1852389/'}alt=""/>
+                <img src={'https://images.pexels.com/photos/11284549/pexels-photo-11284549.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'}alt=""/>
             </div>
 
             <div style={{textAlign: 'center'}}>
 
                 <span>Attualità</span>
-                <h2>Cyberguerra tra Russia e America</h2>
+                <h2>Ucraina: la cyber guerra</h2>
                 <span>pubblicato il 03/03/2022</span>
-                <p>Midst first it, you're multiply divided. There don't, second his one given the he one third rule fruit, very. Fill. Seed give firm... Extremity direction existence as Dashwood's do up. Securing Marianne led welcomed offended but offering six rapt...</p>
+                <p>Almeno due attacchi informarici contro le infrastrutture digitali dell'Ucraina hanno preceduto di poche ore l'invasione della Russia. A svelarlo sono il team di analisti di cybersecurity di Microsoft, che ha subito allertato il governo di Kyiv del pacchetto di malware identificato, FoxBlade, e i tecnici della società di sicurezza informatica Eset. Il colosso di Redmond afferma di aver fornito immediata assistenza alle autorità ucraine e di aver aggiornato il proprio servizio anti-malware per identificare la minaccia. Eset invece ha messo nel mirino un nuovo data wiper, detto Isaac Wiper, ossia un malware che cancella tutti i dati di una macchina e la rende inservibile, a sua volta scatenato contro le infrastrutture ucraine ore prima dell'invasione russa e diverso da Hermetic Wiper, un virus con il medesimo funzionamento che l'azienda aveva segnalato già giorni fa...</p>
 
                 <button>Read More</button>     
 
